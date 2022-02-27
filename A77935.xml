@@ -1,0 +1,637 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Hell in an uproar occasioned by a scuffle that happened between the lawyers and the physicians, for superiority. A satyr.</title>
+            <author>Burridge, Richard, b. 1670.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1700</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 25 KB of XML-encoded text transcribed from 9 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-12">2011-12 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A77935</idno>
+            <idno type="STC">Wing B5977A</idno>
+            <idno type="STC">ESTC R229780</idno>
+            <idno type="EEBO-CITATION">99899367</idno>
+            <idno type="PROQUEST">99899367</idno>
+            <idno type="VID">153071</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A77935)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 153071)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 2345:6)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>Hell in an uproar occasioned by a scuffle that happened between the lawyers and the physicians, for superiority. A satyr.</title>
+                  <author>Burridge, Richard, b. 1670.</author>
+               </titleStmt>
+               <extent>16 p.   </extent>
+               <publicationStmt>
+                  <publisher>printed for S. Cook, and are to be sold by most booksellers in London and Westminster,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>MDCC. [1700]</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>By Richard Burridge--Wing (CD-ROM edition).</note>
+                  <note>Satire on a scuffle between lawyers and physicians for superiority.</note>
+                  <note>In verse.</note>
+                  <note>Reproduction of original in the William Andrews Clark Memorial Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Satire, English --  Early works to 1800.</term>
+               <term>Physicians --  England --  Early works to 1800.</term>
+               <term>Lawyers --  England --  Early works to 1800.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2010-07</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2010-07</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2010-09</date>
+            <label>Ali Jakobson</label>Sampled and proofread</change>
+         <change>
+            <date>2010-09</date>
+            <label>Ali Jakobson</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2011-06</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:153071:1"/>
+            <p>HELL in an Uproar, Occaſioned by A SCUFFLE That happened between the LAWYERS And the PHYSICIANS, FOR SUPERIORITY.</p>
+            <p>A SATYR.</p>
+            <p>
+               <hi>LONDON,</hi> Printed for <hi>S. Cook,</hi> and are to be Sold by moſt Bookſellers in <hi>London</hi> and <hi>Weſtminſter.</hi> MDCC.</p>
+         </div>
+      </front>
+      <body>
+         <div type="poem">
+            <pb facs="tcp:153071:2"/>
+            <pb n="3" facs="tcp:153071:2"/>
+            <head>Hell in an Uproar Occaſioned by A SCUFFLE That happened between the Phyſicians and the Lawyers, &amp;c.</head>
+            <lg>
+               <l>IT was when Day had ſpun her Silver Thread,</l>
+               <l>And was withdrawn to reſt her ſhining Head</l>
+               <l>In thoſe dark Caverns where refulgent Light</l>
+               <l>Is conquer'd by the blackneſs of the Night;</l>
+               <l>And ev'ry Mortal which is weary goes</l>
+               <l>To reſt him in the Arms of ſoft Repoſe,</l>
+               <l>That I laid on a downy Bed, till Thought,</l>
+               <l>By <hi>Morpheus,</hi> was to unthinking brought:</l>
+               <l>I mean the ever wakeful part, my Soul</l>
+               <l>From the confinement of the body Stole,</l>
+               <l>To View thoſe places which could not be Ey'd,</l>
+               <l>Whilſt I was in a carnal Priſon ty'd.</l>
+            </lg>
+            <lg>
+               <l>Now, like thoſe men whom flaſhes of falſe fire,</l>
+               <l>Delude to ramble through Brakes, Ponds, and Mire,</l>
+               <l>Thick Woods and Copſes, over Hill and Dale,</l>
+               <l>But leave them when the Day pulls off her Vail</l>
+               <l>Of darkneſs, to Guild all the Earth with Light,</l>
+               <l>Some Miles from home in a perplexed Fright;</l>
+               <l>I follow'd Fancy whereſoere it went,</l>
+               <l>To give my Curioſity content;</l>
+               <l>Over high Mountains, Rivers, Capes, and Bays,</l>
+               <l>Through Deſerts, Wilderneſſes over Seas,</l>
+               <l>
+                  <pb n="4" facs="tcp:153071:3"/>But having viewed all the Surface ſide</l>
+               <l>Of this vaſt Globe I was reſolv'd to Ride</l>
+               <l>Into the Bowels of the Earth, to ſpy</l>
+               <l>What Secrets in her Pregnant Womb did lie,</l>
+               <l>There Search'd I Crannies, Mines, each hollow Rock,</l>
+               <l>Nature's great Cabinet I did unlock,</l>
+               <l>To ramble in the Intrails of the Sea,</l>
+               <l>And all the Bounds of <hi>Neptune</hi>'s Sov'raignty.</l>
+               <l>There <hi>Syrens</hi> on ſoft Beds of Sand were laid,</l>
+               <l>And <hi>Tritons</hi> under Coral-Arbours play'd.</l>
+               <l>Moſt monſtrous Fiſh went rolling through the Waves;</l>
+               <l>And Ships lay rotting in thoſe deepleſs Graves.</l>
+               <l>Then rov'd I to a Land which joyns to Hell.</l>
+            </lg>
+            <lg>
+               <l>Where as I was informed Death did dwell;</l>
+               <l>It's barren, cold, depopulated dark,</l>
+               <l>No light I ſaw but what flew from the Spark</l>
+               <l>Of Torches, or the Flames of funeral Piles,</l>
+               <l>Still us'd by <hi>Indians</hi> in the Eaſtern Iſles,</l>
+               <l>Or from ſome Lamp which commonly doth Burn</l>
+               <l>For many Ages in a hidden <hi>
+                     <g ref="char:V">Ʋ</g>rn</hi>
+               </l>
+               <l>No Mortal Creature dwelt within his bounds,</l>
+               <l>But naſty Worms which made polluted Wounds,</l>
+               <l>In ſtinking Fleſh and putrified Blood</l>
+               <l>Which there lay Tainting ever ſince the Flood.</l>
+               <l>And in the midſt of this moſt diſmal Land</l>
+               <l>The Court of Nature's Slaughter Man doth ſtand,</l>
+               <l>Whoſe Palace is hung inſide and without,</l>
+               <l>With <hi>Agues, Dropſies, Chollicks, Palſies, Gout,</hi>
+               </l>
+               <l>In fine with <hi>Cancers, Ruptures, <g ref="char:V">Ʋ</g>lcer's, Pox,</hi>
+               </l>
+               <l>And all the Plagues of Curſt <hi>Pandora's Box,</hi>
+               </l>
+               <l>There on a Throne rais'd on a high aſcent</l>
+               <l>Of ſome great King's Sepulchral Monument,</l>
+               <l>
+                  <pb n="5" facs="tcp:153071:3"/>
+                  <hi>Death,</hi> Hell's Purveyor, ſate in Royal State,</l>
+               <l>Grinning at Man's moſt Miſerable Fate,</l>
+               <l>Crowned with Wrath, he for his Scepter bore</l>
+               <l>An Iron Dart, that Reakt with humane Gore.</l>
+               <l>His Robes were made of Linnen Cloth, in which</l>
+               <l>The <hi>Romans</hi> Burnt the Bodies of the Rich,</l>
+               <l>To ſend their Souls to Heaven ſooner, were</l>
+               <l>Dy'd crimſon, Lined through with waſting Care,</l>
+               <l>Diſpairing ſorrows Anguiſh, furr'd with Fears;</l>
+               <l>His Crown was Studded with relenting Tears,</l>
+               <l>Which Wives for Husbands Shed; Men for their Wives,</l>
+               <l>Children for Parents, Maids for Sweethearts lives.</l>
+               <l>All thoſe who waited on this King of Dread</l>
+               <l>Were <hi>Fairies,</hi> and the <hi>Manes</hi> of the dead,</l>
+               <l>And direful <hi>Hobgoblins,</hi> which delight</l>
+               <l>To ramble in the Diſmal ſhades of Night.</l>
+               <l>In Meadows, Charnel-Houſes, and Church-Yards;</l>
+               <l>To frighten Pavidmen, theſe are the Guards</l>
+               <l>Which go before the Harbingers of Hell,</l>
+               <l>Who on a <hi>Pale-Horſe</hi> rides abroad to Kill.</l>
+            </lg>
+            <lg>
+               <l>Being Surprized at the Wretched Sight,</l>
+               <l>I view'd, on all ſides of this Land of Night,</l>
+               <l>Between Reſolves and Doubts, I could not tell,</l>
+               <l>Whether, I'd beſt come back or go for Hell.</l>
+               <l>At length Heart Prompting me to ſee the Place,</l>
+               <l>Swiftneſs was added to my former Pace;</l>
+               <l>I reached preſently the <hi>Stygian</hi> Strand,</l>
+               <l>Where ſacred <hi>Hermes</hi> with his opiate Wand,</l>
+               <l>Was ſtepping into <hi>Charon</hi>'s Boat, with Souls</l>
+               <l>Whoſe <hi>Mittimus</hi> was to thoſe blazing Goals</l>
+               <l>Of <hi>Pluto;</hi> ſpying me, his Liſt he read,</l>
+               <l>To ſee if I belonged to the Dead.</l>
+               <l>
+                  <pb n="6" facs="tcp:153071:4"/>But finding I was only crept away,</l>
+               <l>For Pleaſure from Receptacles of Clay.</l>
+               <l>His Courtiſy bade me ſtep in the Boat,</l>
+               <l>And promis'd that he'd ſee me ſafely out</l>
+               <l>Again on <hi>Earth;</hi> by vertue of his Charms,</l>
+               <l>He'd ſhew me Hell, and keep me from her Charms.</l>
+               <l>Thanking the God for his great Favour, I</l>
+               <l>Step'd in amongſt the reſt, and Inſtantly</l>
+               <l>The Oars with thick-fetch'd Strokes conveyed us</l>
+               <l>Aſhore, where the three-headed <hi>Cerberus</hi>
+               </l>
+               <l>Barked with ſuch a Shril reſounding Yell,</l>
+               <l>That it Alarumed the Watch of Hell;</l>
+               <l>Who came to ſee what Souls were coming in,</l>
+               <l>The place were Sinners ever ſtay for Sin,</l>
+               <l>Now being enter'd the Infernal Gates,</l>
+               <l>I ſaw to my Amaze, the Ghaſtful Fates;</l>
+               <l>On Convex mounts of Ice, deep Sulphrous Lakes,</l>
+               <l>Where Furies with their Hairs of Hiſſing Snakes,</l>
+               <l>Tortur'd condemned Ghoſts with Rods of Fire;</l>
+               <l>Plung'd 'em in Surges of Eternal Ire:</l>
+               <l>Others in concave Rocks were Chain'd, which Waves</l>
+               <l>Of boyling Brimſtone daſht againſt; ſome Slaves</l>
+               <l>Of Terrors Skriekt to ſee the Gulf, which lies</l>
+               <l>Between their Torments and eternal Joys;</l>
+               <l>There Conſcience flew about in dreadful Shapes</l>
+               <l>To Frighten all the Damn'd, for none eſcapes</l>
+               <l>The wrath of God. — I roved then through Dens</l>
+               <l>Of Horrour, nitrous Gullies, gloomy Fenns;</l>
+               <l>There's not a Rock but what was fill'd with fears,</l>
+               <l>Sighs, Screeches, Vengeance, Frights, and briny Tears</l>
+               <l>Which Scorched Tongues wou'd Lap, but can't; they ly</l>
+               <l>On killing Miſeries, yet never die;</l>
+               <l>I to Amazement ſaw ſome Damned broyl</l>
+               <l>
+                  <pb n="7" facs="tcp:153071:4"/>On Flakes of divine Vengeance; others boyl</l>
+               <l>In Surges of deſtructive Pitch and Lead.</l>
+               <l>The more they Roar'd, the more their Torments bred;</l>
+               <l>Some tumbling through the deep <hi>Abyſs,</hi> but found</l>
+               <l>No bottom, then to freſher Pains rebound;</l>
+               <l>Devils for Madneſs of the overthrow,</l>
+               <l>Which makes 'em walk on Pavements, which do Glow</l>
+               <l>Much hotter than conſuming <hi>Aetna,</hi> where</l>
+               <l>Great Pumice-Stones do Scorch the limpid Air;</l>
+               <l>And from her burning Bowels, Flames are toſt</l>
+               <l>Till Fields are in the midſt of fire Loſt.</l>
+               <l>On ſome their Fury Wreak, which dire ſights</l>
+               <l>Did fill my Innocence with bitter Frights.</l>
+               <l>Soaring through gleaming Airs where <hi>Daemons</hi> rule,</l>
+               <l>My progreſs was prevented at a Pool,</l>
+               <l>The vaſt Extent of which did ſeem to lie</l>
+               <l>Beyond the Verge of deep Eternity;</l>
+               <l>To tell the height the Sulph'rous Waves did riſe</l>
+               <l>It is impoſſible, the lofty Skies</l>
+               <l>Shew not ſo high from Earth, as they did Flounce</l>
+               <l>On Billows, which ſo Terrible did bounce</l>
+               <l>As if the Magazines of Thunder were</l>
+               <l>At once diſcharg'd to rend the liquid Air.</l>
+               <l>No Souls was Tortur'd there, and asking why,</l>
+               <l>I was inform'd, the Damned when they Lye,</l>
+               <l>Felt not the pains they muſt feel; that's the place</l>
+               <l>Where Souls ſhall ſuffer Pains in full; none Trace,</l>
+               <l>Not <hi>Pluto</hi> King of Hell himſelf, that way</l>
+               <l>Of burning Horrours, till the judgment Day,</l>
+               <l>Upon the Banks of that Eye frightning Shore,</l>
+               <l>(Where Wrath and Plagues will be encreaſed more</l>
+               <l>On Tortur'd Ghoſts, which never will conſume)</l>
+               <l>Reſide the Regents of eternal Gloom.</l>
+               <l>
+                  <pb n="8" facs="tcp:153071:5"/>
+                  <hi>Perplext</hi> as well as thoſe which Humane were,</l>
+               <l>In Tortures, Griefs, and Pains which endleſs are.</l>
+               <l>But yet inſulting over damned Souls,</l>
+               <l>Which ſtumble (more the pity) there in Shoals.</l>
+            </lg>
+            <lg>
+               <l>Returning on the wings of winged Speed,</l>
+               <l>From thoſe Apartments which makes conſcience Bleed</l>
+               <l>To lightſom Earth there happened to be</l>
+               <l>An Uproar in theſe plains of Miſery,</l>
+               <l>So very terrible and great, that all</l>
+               <l>The fallen Angels fear'd a ſecond Fall.</l>
+               <l>I eſpyed by the ſigns that flew about,</l>
+               <l>
+                  <hi>Phyſicians</hi> and the <hi>Lawyers</hi> had fell out,</l>
+               <l>For in the Scuffle 'tween the doating Sots</l>
+               <l>There flew glaſs Bottles, Urinals, and Pots,</l>
+               <l>Black Velvet Coats, and Beaſts-Skins ſtuft with Hay,</l>
+               <l>Happy the Soul that's fartheſt from the Fray,</l>
+               <l>Here Tipt-Staves knockt down ſome, there Maces beat</l>
+               <l>Teeth down their Throats, in this great feud and heat,</l>
+               <l>The Purſes fly as thick as Hail, Caps, Gowns,</l>
+               <l>Coifs, Writs of Errour, there a Lawyer frowns</l>
+               <l>And throws about Indentures, Leaſes, old</l>
+               <l>Worm-eaten Statute-Books, but <hi>Pluto</hi> told</l>
+               <l>Of the Rencounter, ſends his Guards to quell</l>
+               <l>Thoſe common Barretters of Peace, and Hell,</l>
+               <l>And iſſu'd out <hi>Ne exeat Regno</hi> Writs</l>
+               <l>That ſtrangers ſhould not leave thoſe Sulphurous Pits,</l>
+               <l>Till the ringleaders of this helliſh Rout</l>
+               <l>Were to a publick Court of Juſtice brought,</l>
+               <l>And try'd for the offence: ſo, fore'd to ſtay,</l>
+               <l>I heard the Tryal e're I came away.</l>
+            </lg>
+            <lg>
+               <l>The Court now ſet, and <hi>Pluto</hi> likewiſe there,</l>
+               <l>
+                  <pb n="9" facs="tcp:153071:5"/>The <hi>Doctors</hi> and the <hi>Lawyers</hi> did appear:</l>
+               <l>But <hi>Pluto,</hi> in whoſe Eyes appeared Ire,</l>
+               <l>And ſparkled nothing but Revenge and Fire,</l>
+               <l>Enraged from his Flaming ſeat aroſe</l>
+               <l>And through his Brazen Lungs his Fury blows,</l>
+               <l>In ſuch like words as theſe, <hi>ye Reprobates,</hi>
+               </l>
+               <l>How durſt you make theſe Jars within my Gates;</l>
+               <l>Do ye terreſtrial <hi>Villians</hi> ſtrive to ſhake</l>
+               <l>My Kingdoms with <hi>Rebellion?</hi> think to make</l>
+               <l>A Conqueſt over me, who dare engage</l>
+               <l>A ſecond War with Heaven? in my rage</l>
+               <l>If I yon Chriſtial Arch could penetrate</l>
+               <l>Once more ſhould with my Forces tempt my Fate,</l>
+               <l>With Angels Blood that Milky cauſey Stain,</l>
+               <l>And ſtrive to Atomize the World again.</l>
+               <l>How now can you weak Beings with me cope,</l>
+               <l>On things impoſſible you've fixed hope,</l>
+               <l>But for the bold Attempt in glowing Chains</l>
+               <l>Ye ſhall be ty'd to Rocks of endleſs pains.</l>
+               <l>This ſaid, the three Infernal Judges ſpoke</l>
+               <l>To the exaſperated King of Smoke,</l>
+               <l>Telling him that no Treaſon in the leaſt</l>
+               <l>Againſt him was deſign'd, but at a Feaſt</l>
+               <l>Some <hi>Doctors,</hi> and ſome <hi>Lawyers</hi> fell to blows,</l>
+               <l>And made a noiſe concerning which of thoſe</l>
+               <l>Profeſſions ought by Cheating moſt to take</l>
+               <l>The upper-hand, Sir, in this Sulph'rous Lake,</l>
+               <l>As we're Inform'd. Is't ſo, quoth <hi>Pluto,</hi> I</l>
+               <l>Am ſatisfy'd, do you the matter try</l>
+               <l>Between them. Then ſtern <hi>Minos,</hi> who was feed,</l>
+               <l>Bade firſt the <hi>Lawyers</hi> in their Caſe proceed,</l>
+               <l>Commanding that they open one by one</l>
+               <l>The Knaviſh Tricks, when Mortal, they had done.</l>
+            </lg>
+            <lg>
+               <pb n="10" facs="tcp:153071:6"/>
+               <l>Then at the Bar, <hi>T—n</hi> firſt did tell,</l>
+               <l>(Who had an ancient ſtandard been in Hell)</l>
+               <l>That in his time, the Laws, to any Senſe,</l>
+               <l>He Wreſted, did allow Kings could diſpence</l>
+               <l>With any Subject's Rights as they thought fit;</l>
+               <l>To Articles of Treaſon did I ſet</l>
+               <l>My Hand, and other Matters out of meaſure,</l>
+               <l>To Murder Nobles at my Maſter's pleaſure;</l>
+               <l>For all Injuſtice I was ſo devout,</l>
+               <l>That one at <hi>Tyburn</hi> for it cut my Throat.</l>
+            </lg>
+            <lg>
+               <l>The next ſpoke <hi>P—n,</hi> who op'nly told the Court,</l>
+               <l>Of Perjury and Lies I make a Sport:</l>
+               <l>Nay, for my part, againſt all Law and Reaſon,</l>
+               <l>I have upheld and vindicated Treaſon;</l>
+               <l>For Crimes which did my haughty Humour puff,</l>
+               <l>I loſt my Ears, and wore a wooden Ruff.</l>
+            </lg>
+            <lg>
+               <l>Next <hi>B—w,</hi> with a <hi>Stentor</hi>'s Voice, prepar'd</l>
+               <l>To ſpeak, and thus his Sentiments declar'd,</l>
+               <l>The <hi>Law,</hi> by all the World, is known to be</l>
+               <l>Corrupted by the <hi>Lawyer</hi>'s Knavery;</l>
+               <l>So paſſing o'er their Quibbles, Cheats, and Quirks,</l>
+               <l>I ſhall proceed to tell a Work of Works,</l>
+               <l>Which I have done, a Work that equals all</l>
+               <l>The Crimes almoſt which made the Angels Fall;</l>
+               <l>I judg'd my lawful King, and doomed Fate,</l>
+               <l>To ſtop his Breath before his <hi>Palace-gate,</hi>
+               </l>
+               <l>What nobler Sacrifice than that could be,</l>
+               <l>
+                  <hi>A</hi> precedent for future Villany?</l>
+               <l>And for this Deed I think we <hi>Serjeants</hi> may,</l>
+               <l>From Urine-ſhakers, bear the Bell away.</l>
+            </lg>
+            <lg>
+               <l>Then thus ſpake <hi>S—s,</hi> Grave Sirs, I muſt confeſs,</l>
+               <l>I trac'd, like other Judges, Wickedneſs;</l>
+               <l>
+                  <pb n="11" facs="tcp:153071:6"/>Bribes I ador'd, to rich Men lent my Ear;</l>
+               <l>Th' Oppreſſed, Poor Man's Cauſe would never hear;</l>
+               <l>For any Criminal whoſe Purſe was large,</l>
+               <l>
+                  <hi>Juries</hi> I gave a favourable Charge</l>
+               <l>For that which <hi>Lawyers</hi> with ill Conſcience rake,</l>
+               <l>A very tender, good Report I'd make</l>
+               <l>Before Death-warrants by the King were Sign'd,</l>
+               <l>For ſuch whoſe Villany was not behind-</l>
+               <l>Hand with the greateſt Criminals, and moſt</l>
+               <l>Deſerv'd to Die, but Crimes in Gold are loſt.</l>
+               <l>A matter that depends between the King,</l>
+               <l>Himſelf, and Subject for an Offering</l>
+               <l>Of <hi>Achan</hi>'s Pelf; againſt all Right ſhould run</l>
+               <l>In favour of the Subject, this I've done.</l>
+               <l>Witneſs ye <hi>Lawyers</hi> a great <hi>Doctor</hi>'s Caſe</l>
+               <l>Whoſe Guinnies ſav'd his Life, he's in this place:</l>
+               <l>Sirs, there he ſtands, he cann't deny't; but I</l>
+               <l>Was <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>orc'd to ſcamper for my Knavery.</l>
+               <l>I think no Men on Earth live more Prophane</l>
+               <l>Than Students in the <hi>Law,</hi> in Vice they Reign;</l>
+               <l>They Drink and Whore all Night, i'th Morning riſe</l>
+               <l>To Couzen, Swear, and tell a Thouſand Lies:</l>
+               <l>As long as Clients can feed us with Gold,</l>
+               <l>Their Cauſe till Dooms-day we can make it hold;</l>
+               <l>But for the Poor Man's Cauſe, we let that fall,</l>
+               <l>In Law the weakeſt goeth to the Wall:</l>
+               <l>Of Folks they take more Fees than is their due,</l>
+               <l>Take Fees of <hi>Plaintiff</hi> and <hi>Defendant</hi> too.</l>
+               <l>To ſee how faſt the <hi>Lawyers</hi> damn their Souls</l>
+               <l>At the <hi>Exchequer, Common Pleas,</hi> and <hi>Rolls,</hi>
+               </l>
+               <l>The <hi>King's-bench-bar, Guild-hall,</hi> I Vow and Swear</l>
+               <l>Ye'd think this place was repreſented there,</l>
+               <l>Having got Clients, Land and Money too,</l>
+               <l>
+                  <hi>In forma pauperis</hi> they're forc'd to ſue;</l>
+               <l>
+                  <pb n="12" facs="tcp:153071:7"/>And then poor Rats we mind their Cauſe no more</l>
+               <l>Than damning Bully does his naſty Whore,</l>
+               <l>Who cann't with Money oft'ner him ſupply,</l>
+               <l>To loſe at the <hi>Groom Porter</hi>'s preſently.</l>
+               <l>Go in a Term-time to <hi>Weſtminſter-Hall,</hi>
+               </l>
+               <l>Ye'd ſee the place with Lies condenſed, all</l>
+               <l>Thoſe ancient Courts methinks of Brimſtone ſmell,</l>
+               <l>That, not <hi>Veſuvius,</hi> is the mouth of Hell.</l>
+               <l>If ye ſhould hear what all the <hi>Chancellors,</hi>
+               </l>
+               <l>
+                  <hi>Attorneys, Judges, Clerks, Sollicitors,</hi>
+               </l>
+               <l>And <hi>Barriſters,</hi> which are in Hell could ſay,</l>
+               <l>In reference to Cheating moſt, ye may</l>
+               <l>Sit long enough, the liſt of all their Names</l>
+               <l>Doth reach from Heaven to theſe blueiſh Flames.</l>
+            </lg>
+            <lg>
+               <l>Next <hi>J—s</hi> ſpoke in Wrath, I could eſpy</l>
+               <l>Rage in his Cheeks, and Fury in his Eye,</l>
+               <l>He vented thus his Gall; <hi>Gut-cleanſers</hi> think</l>
+               <l>That we ſhall under them in Cheating ſink?</l>
+               <l>If ſtinking <hi>Phyſick</hi> is preferr'd before</l>
+               <l>The <hi>Law,</hi> I never ſhall love Cheating more:</l>
+               <l>I'm ſure on Earth I've done enough to make</l>
+               <l>The <hi>Devil</hi> love a <hi>Lawyer</hi> for my ſake.</l>
+               <l>When but a <hi>Barriſter</hi> I got ſuch Fame</l>
+               <l>That <hi>Brawling</hi> was prefixed to my Name,</l>
+               <l>As that great Epethite <hi>Superbus</hi> was</l>
+               <l>Always to <hi>Tarquin</hi>'s. O what miſchiefs has</l>
+               <l>Been hatched in me whilſt I wore the Coif,</l>
+               <l>And after I was furr'd, I mad ſuch ſtrife</l>
+               <l>Between the King and Citizens, till they</l>
+               <l>Had through my means their <hi>Charter</hi> took away,</l>
+               <l>The Laws are good, but be too much abus'd,</l>
+               <l>Becauſe by Knaves they are ſo much miſus'd:</l>
+               <l>
+                  <pb n="13" facs="tcp:153071:7"/>Some Jack-a-both-ſides play, and always might,</l>
+               <l>By Bribes and Favour overcometh Right.</l>
+               <l>When Death ſnatcht <hi>Charles</hi> from us, but left us <hi>James</hi>
+               </l>
+               <l>To Reign, all Glory be to both their Names!</l>
+               <l>I plagued <hi>Oats</hi> with Whips and Pillory,</l>
+               <l>For keeping <hi>Albion</hi> from <hi>Anarchy;</hi>
+               </l>
+               <l>I made him curſe the time he'd ever been</l>
+               <l>At <hi>Salamanca</hi> or a <hi>Papist</hi> ſeen.</l>
+               <l>My bloody Temper could not be at reſt,</l>
+               <l>Till I had near three hundred in the Weſt</l>
+               <l>Of <hi>England</hi> cauſed to be Gibbetted</l>
+               <l>For ſtanding by a Peer who loſt his Head.</l>
+               <l>And when I came to have the <hi>Mace</hi> and <hi>Purſe,</hi>
+               </l>
+               <l>Inſtead of growing better I grew worſe.</l>
+               <l>But when a <hi>Belgick</hi> Prince to <hi>England</hi> came,</l>
+               <l>(Who much prohibits Fuel from this Flame,</l>
+               <l>By his ſuppreſſing Vice) I was confin'd</l>
+               <l>A Pris'ner, where it buzzed in my mind,</l>
+               <l>That if an <hi>Ax</hi> and <hi>Block</hi> was not my Fate,</l>
+               <l>For <hi>Tyburn</hi> I muſt look to be a Bait;</l>
+               <l>So fearing what I'd done for <hi>Hell</hi> was vain,</l>
+               <l>I took a Doſe to damn my ſelf again;</l>
+               <l>Thus doubly Damn'd, I hope they don't expect</l>
+               <l>The <hi>Devil</hi> will advancing ſuch neglect;</l>
+               <l>
+                  <hi>Pulſe-feelers,</hi> here's a ſhuffling ſorry Crew</l>
+               <l>Of <hi>Hackney-writers,</hi> who can bafflle you,</l>
+               <l>If worſer than ye are; they owe as much,</l>
+               <l>For Lodging, Ale, and Diet, as the <hi>Dutch</hi>
+               </l>
+               <l>Are ſince the laſt Engagement in Arrears</l>
+               <l>To <hi>Engliſhmen</hi> for Fiſhing in their Seas;</l>
+               <l>The Sheets they've Stole from Lodgings are enough</l>
+               <l>To make for ev'ry damned Wretch a Ruff</l>
+               <l>If Ruffs were here in faſhion. Don't ye know,</l>
+               <l>Impartial Judges, that we long ago</l>
+               <l>
+                  <pb n="14" facs="tcp:153071:8"/>Were counted bad, for <hi>Christ,</hi> in Scripture ſaid,</l>
+               <l>Wo, twice or thrice, to <hi>Lawyers,</hi> for they lade</l>
+               <l>Poor Men with Burthens grievous to be born,</l>
+               <l>But we would let the heavy Loads alone.</l>
+            </lg>
+            <lg>
+               <l>Next <hi>W—t,</hi> about to praiſe the <hi>Lawyer</hi>'s Trade,</l>
+               <l>
+                  <hi>Aeacus</hi> interrupted him, and ſaid,</l>
+               <l>Enough has been declared of your ſide;</l>
+               <l>Now let the <hi>Doctors</hi> ſpeak, then we'll decide</l>
+               <l>The difference between you preſently:</l>
+               <l>So <hi>Wakeman</hi> roſe, made this Apology;</l>
+               <l>I being by the <hi>Doctors</hi> chus'd to ſpeak</l>
+               <l>In their behalves all, Juſtice I do ſeek:</l>
+               <l>The <hi>Lawyers</hi> ſwagger, and preſume to take</l>
+               <l>The upper-hand of us, that always make</l>
+               <l>An Int'reſt to be great with <hi>Mammon;</hi> few</l>
+               <l>Ador'd him more than we, we hugg'd him too.</l>
+               <l>The captious <hi>Lawyers</hi> this and that do ſay;</l>
+               <l>I'm ſure we get our Gold as bad as they.</l>
+               <l>Trades-men we pillage till they've nothing left;</l>
+               <l>The Poor, who of all Comfort are bereft,</l>
+               <l>We come not nigh; but for the Gentry, who</l>
+               <l>Have Golden Hooks to bait, we Gallop to</l>
+               <l>Their Houſes faſt enough, both Night and Day</l>
+               <l>We make a Coach and Horſes dance the Hay:</l>
+               <l>Through thick and thin we go, through cold and heat,</l>
+               <l>To ſmell their Urine, feel how Pulſes beat.</l>
+               <l>Thoſe we can Cure, if Money comes apace,</l>
+               <l>We keep 'em backwards: Things that are more baſe</l>
+               <l>We act; young Heirs that want their Father's Wills,</l>
+               <l>Fee us to rid 'em with a Doſe of Pills,</l>
+               <l>Which we perform. Obſerve, when Princes Die</l>
+               <l>In hugger mugger, there's ſome Villany</l>
+               <l>
+                  <pb n="15" facs="tcp:153071:8"/>Of their ſworn <hi>Doctors</hi> in their Death; ye know</l>
+               <l>That I, when Mortal, for the overthrow</l>
+               <l>Of Three fine Kingdoms, hired was to chace</l>
+               <l>A Monarch's Ghoſt by Poyſon to a place</l>
+               <l>Where Myriads ſhould have follow'd him, to tell</l>
+               <l>What Miſeries they'd ſuffer'd ſince he fell:</l>
+               <l>But this I own, had it not been for <hi>S—s,</hi>
+               </l>
+               <l>I had been Limb-meal'd by the <hi>Sheriffs</hi> Dogs.</l>
+               <l>
+                  <hi>Doctors,</hi> as well as <hi>Lawyers,</hi> dare Rebell</l>
+               <l>Againſt their King; but to be ſhort, pray tell</l>
+               <l>Which Crime moſt Honour to Profeſſion brings,</l>
+               <l>Ruining Subjects, or the Poyſoning Kings?</l>
+            </lg>
+            <lg>
+               <l>This ſaid, old <hi>Radamanth,</hi> who lookt as Grave</l>
+               <l>As Stoicks, who at no Misfortune Rave,</l>
+               <l>Declared his Opinion thus, I muſt</l>
+               <l>Own that <hi>Phyſicians</hi> are not much in truſt</l>
+               <l>With <hi>Hell</hi> for any ſort of Sin, alas!</l>
+               <l>They have enough to purchaſe half this Maſs</l>
+               <l>Of blazing Lands, if they were to be ſold,</l>
+               <l>
+                  <hi>Doctors</hi> will always hazard Souls for Gold.</l>
+               <l>But now to give the <hi>Lawyers</hi> their full weight,</l>
+               <l>Of Praiſe, for Knavery they win the Plate</l>
+               <l>From our Favour, we cannot disband</l>
+               <l>A <hi>Lawyer;</hi> lucre, ſee doth make 'em ſtand</l>
+               <l>With open Mouths, to catch the yellow Ore</l>
+               <l>Which theſe hot Flames from Golden Mines do pour;</l>
+               <l>When time ſhall come that Earth forgets her Weight,</l>
+               <l>The Sea its Currents, and the Spheres their Height,</l>
+               <l>And tumble into this Infernal Pit,</l>
+               <l>Large Guineas they will ſwallow at a Bit:</l>
+               <l>You Sin enough, but t'others ten times more;</l>
+               <l>To <hi>Hell</hi> they're very little in the Score;</l>
+               <l>
+                  <pb n="16" facs="tcp:153071:9"/>The <hi>Templars, Lincolns-Inn,</hi> and <hi>Grays-Inn</hi> Sparks</l>
+               <l>Are very fit to make the <hi>Devil</hi> Clerks;</l>
+               <l>Wherefore they muſt take place of you, and be</l>
+               <l>The next to <hi>Jeſuits</hi> for Villany.</l>
+            </lg>
+            <lg>
+               <l>This ſaid, the nitrous Judges broke up Court,</l>
+               <l>And <hi>Lawyers</hi> gave for Joy ſo great a Shout</l>
+               <l>That the Abyſs that's bottomleſs did ſhake;</l>
+               <l>And Ghoſts in Fire chain'd call'd from a Lake</l>
+               <l>Adjoyning, where the Court was kept, to know</l>
+               <l>The meaning of that ſudden Voice below.</l>
+               <l>Now Orders were that wand'ring Ghoſts which came</l>
+               <l>To view the Manſions of Eternal Flame,</l>
+               <l>Muſt all depart the Kingdom preſently;</l>
+               <l>Which made me glad, and ſo with <hi>Mercury</hi>
+               </l>
+               <l>I came through <hi>Tophet,</hi> and the Land of <hi>Death,</hi>
+               </l>
+               <l>On Earth, and gave the Fleſh its living Breath;</l>
+               <l>And glad I was that I was got ſo well</l>
+               <l>From <hi>Lawyers, Doctors,</hi> and the bounds of <hi>Hell.</hi>
+               </l>
+            </lg>
+            <trailer>FINIS.</trailer>
+            <pb facs="tcp:153071:9"/>
+         </div>
+      </body>
+   </text>
+</TEI>
